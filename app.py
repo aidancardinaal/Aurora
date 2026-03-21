@@ -51,7 +51,7 @@ async def chat_with_gemini(request: QueryRequest):
     """
     try:
         # Use a generalized model assuming environment holds an active key
-        model = genai.GenerativeModel("gemini-2.5-flash")
+        model = genai.GenerativeModel("gemini-3-pro-preview")
         response = model.generate_content(request.query)
         return {"response": response.text}
     except Exception as e:

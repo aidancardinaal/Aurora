@@ -1,0 +1,82 @@
+[
+  {
+    "market_id": "0xe2b3b822d2d357aecb9ec2124b9152ea61f2cc0f2e07fe7ed6ce00015cd9f431",
+    "question": "Will Dan Hooker fight Max Holloway next?",
+    "token_id": "4964282026365993254153532843598473533251083755677816843588786470453894763933",
+    "volume_24hr": 19523.69,
+    "volume": 19532.69,
+    "velocity": 0.395,
+    "signal_score": 5,
+    "probability": 0.535
+  },
+  {
+    "market_id": "0xd73f60114a0e7169a55082daef1228cb27fa50c939eea22cb0589f6bac6ce5d3",
+    "question": "Iran x Israel/US conflict ends by May 15?",
+    "token_id": "19426830997860641827867742428794225516264548638293070052741093336218482490309",
+    "volume_24hr": 41380.196704,
+    "volume": 791666.8393089989,
+    "velocity": 0.08000000000000002,
+    "signal_score": 8,
+    "probability": 0.495
+  },
+  {
+    "market_id": "0xfa59099fbda1e0f0058ed3cbd57e939fe90ab6d9b57d53bd488bcadf75c191d4",
+    "question": "Trump announces end of military operations against Iran by April 30th?",
+    "token_id": "112434828665041337854033745240098052999773438249964130665844574663228374653496",
+    "volume_24hr": 115437.43284400005,
+    "volume": 681176.321095,
+    "velocity": 0.06999999999999995,
+    "signal_score": 8,
+    "probability": 0.47
+  },
+  {
+    "market_id": "0xe6d00bae1234238bc9978040316062e56fc2849885379db1f207895fa94838a5",
+    "question": "Will Israel take military action in Gaza on March 20, 2026?",
+    "token_id": "8107189777106023102890203017802245885639388469902538004730903968298567392213",
+    "volume_24hr": 16072.060673000002,
+    "volume": 21766.822850000008,
+    "velocity": -0.295,
+    "signal_score": 8,
+    "probability": 0.08
+  },
+  {
+    "market_id": "0x1c39f29a392495da86a9d1882bdb7ad82bd617990a6da16674e1ee3da105e9e6",
+    "question": "Will Israel launch a major ground offensive in Gaza by December 31?",
+    "token_id": "54321071530548266672166878707765766594100313888586165986698245613205332870724",
+    "volume_24hr": 3322.942856,
+    "volume": 3655.877956,
+    "velocity": 0.325,
+    "signal_score": 9,
+    "probability": 0.465
+  },
+  {
+    "market_id": "0xc84dfa2ab4a808d1b96a2cf439f8b88a1c5c37762253280deb7663a195d9b859",
+    "question": "Trump announces end of military operations against Iran by June 30th?",
+    "token_id": "77200405920919406047222396714341713902953085905930865032809647038536176521469",
+    "volume_24hr": 34371.902355000006,
+    "volume": 300982.48561000015,
+    "velocity": 0.05500000000000005,
+    "signal_score": 11,
+    "probability": 0.765
+  },
+  {
+    "market_id": "0xdff611d904b9e981ed95cf5962de3057cb15c7b793c695820cfee7a631a806dd",
+    "question": "Israel x Hamas Ceasefire Phase II by June 30?",
+    "token_id": "36732919114076026380039806748718856940648621591203841949809701657106525878844",
+    "volume_24hr": 3399.6406209999996,
+    "volume": 440230.80373099993,
+    "velocity": 0.11499999999999999,
+    "signal_score": 11,
+    "probability": 0.245
+  },
+  {
+    "market_id": "0xf15f4253eace2d74c88936cd63906abda4ff4bbf98e20cf799ba45cf6afc55e9",
+    "question": "Will Israel launch a major ground offensive in Gaza by June 30?",
+    "token_id": "75346936063969571190620358863735703777657300721118724660441519247622515981794",
+    "volume_24hr": 1557.882346,
+    "volume": 1715.777066,
+    "velocity": 0.27999999999999997,
+    "signal_score": 12,
+    "probability": 0.41
+  }
+]

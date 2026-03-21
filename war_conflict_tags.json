@@ -1,0 +1,492 @@
+{
+  "description": "Polymarket tags related to war and conflict",
+  "fetched_at": "2026-03-21",
+  "total_tags_scanned": 3300,
+  "tags": [
+    {
+      "id": "102290",
+      "label": "Afghanistan",
+      "slug": "afghanistan"
+    },
+    {
+      "id": "103284",
+      "label": "AFRICOM",
+      "slug": "africom"
+    },
+    {
+      "id": "102798",
+      "label": "Airspace",
+      "slug": "airspace"
+    },
+    {
+      "id": "100933",
+      "label": "Army",
+      "slug": "army"
+    },
+    {
+      "id": "412",
+      "label": "attack",
+      "slug": "attack"
+    },
+    {
+      "id": "364",
+      "label": "ayatollah khamenei",
+      "slug": "ayatollah-khamenei"
+    },
+    {
+      "id": "101917",
+      "label": "balkans",
+      "slug": "balkans"
+    },
+    {
+      "id": "102265",
+      "label": "bomb",
+      "slug": "bomb"
+    },
+    {
+      "id": "334",
+      "label": "ceasefire",
+      "slug": "ceasefire"
+    },
+    {
+      "id": "103131",
+      "label": "Chechnya",
+      "slug": "chechnya"
+    },
+    {
+      "id": "103838",
+      "label": "combat",
+      "slug": "combat"
+    },
+    {
+      "id": "104101",
+      "label": "combats",
+      "slug": "combats"
+    },
+    {
+      "id": "253",
+      "label": "conflict resolution",
+      "slug": "conflict-resolution"
+    },
+    {
+      "id": "101409",
+      "label": "coup",
+      "slug": "coup"
+    },
+    {
+      "id": "103781",
+      "label": "Department of Defense",
+      "slug": "department-of-defense"
+    },
+    {
+      "id": "103780",
+      "label": "Department of War",
+      "slug": "department-of-war"
+    },
+    {
+      "id": "104010",
+      "label": "Diplomacy & Ceasefire",
+      "slug": "diplomacy-ceasefire"
+    },
+    {
+      "id": "937",
+      "label": "drone attack",
+      "slug": "drone-attack"
+    },
+    {
+      "id": "61",
+      "label": "Gaza",
+      "slug": "gaza"
+    },
+    {
+      "id": "102628",
+      "label": "Gaza Floatilla",
+      "slug": "gaza-floatilla"
+    },
+    {
+      "id": "100238",
+      "label": "geopolitcs",
+      "slug": "geopolitcs"
+    },
+    {
+      "id": "153",
+      "label": "hamas",
+      "slug": "hamas"
+    },
+    {
+      "id": "733",
+      "label": "haniyeh",
+      "slug": "haniyeh"
+    },
+    {
+      "id": "297",
+      "label": "Hezbollah",
+      "slug": "hezbollah"
+    },
+    {
+      "id": "104128",
+      "label": "Hormoz",
+      "slug": "hormoz"
+    },
+    {
+      "id": "104139",
+      "label": "Hormuz",
+      "slug": "hormuz"
+    },
+    {
+      "id": "1542",
+      "label": "hostage crisis",
+      "slug": "hostage-crisis"
+    },
+    {
+      "id": "252",
+      "label": "hostages",
+      "slug": "hostages"
+    },
+    {
+      "id": "582",
+      "label": "houthis",
+      "slug": "houthis"
+    },
+    {
+      "id": "950",
+      "label": "humanitarian aid",
+      "slug": "humanitarian-aid"
+    },
+    {
+      "id": "497",
+      "label": "humanitarian pause",
+      "slug": "humanitarian-pause"
+    },
+    {
+      "id": "1346",
+      "label": "international conflicts",
+      "slug": "international-conflicts"
+    },
+    {
+      "id": "593",
+      "label": "invasion",
+      "slug": "invasion"
+    },
+    {
+      "id": "78",
+      "label": "Iran",
+      "slug": "iran"
+    },
+    {
+      "id": "104008",
+      "label": "Iran Offensive Strikes",
+      "slug": "iran-offensive-actions"
+    },
+    {
+      "id": "104005",
+      "label": "Iran Regime",
+      "slug": "iranian-leadership-regime"
+    },
+    {
+      "id": "100756",
+      "label": "iraq",
+      "slug": "iraq"
+    },
+    {
+      "id": "180",
+      "label": "Israel",
+      "slug": "israel"
+    },
+    {
+      "id": "104064",
+      "label": "Israel x Iran",
+      "slug": "israel-x-iran"
+    },
+    {
+      "id": "102075",
+      "label": "kashmir",
+      "slug": "kashmir"
+    },
+    {
+      "id": "102304",
+      "label": "Khamenei",
+      "slug": "khamenei"
+    },
+    {
+      "id": "101688",
+      "label": "knesset",
+      "slug": "knesset"
+    },
+    {
+      "id": "102797",
+      "label": "Kup'yans'k-Vuzlovyi",
+      "slug": "kupyansk-vuzlovyi"
+    },
+    {
+      "id": "101844",
+      "label": "Kupyansk",
+      "slug": "kupyansk"
+    },
+    {
+      "id": "104113",
+      "label": "Kurdistan",
+      "slug": "kurdistan"
+    },
+    {
+      "id": "104112",
+      "label": "Kurdistan Regional Government",
+      "slug": "kurdistan-regional-government"
+    },
+    {
+      "id": "849",
+      "label": "Lebanon",
+      "slug": "lebanon"
+    },
+    {
+      "id": "101253",
+      "label": "Macro Geopolitics",
+      "slug": "macro-geopolitics"
+    },
+    {
+      "id": "103873",
+      "label": "Mexico Cartel War",
+      "slug": "mexico-cartel-war"
+    },
+    {
+      "id": "193",
+      "label": "military",
+      "slug": "military"
+    },
+    {
+      "id": "464",
+      "label": "Military Actions",
+      "slug": "military-action"
+    },
+    {
+      "id": "1308",
+      "label": "military invasion",
+      "slug": "military-invasion"
+    },
+    {
+      "id": "688",
+      "label": "military strategy",
+      "slug": "military-strategy"
+    },
+    {
+      "id": "104007",
+      "label": "Military Strikes",
+      "slug": "military-strikes"
+    },
+    {
+      "id": "100674",
+      "label": "missile",
+      "slug": "missile"
+    },
+    {
+      "id": "104127",
+      "label": "Mojtaba Khamenei",
+      "slug": "mojtaba-khamenei"
+    },
+    {
+      "id": "192",
+      "label": "nato",
+      "slug": "nato"
+    },
+    {
+      "id": "1294",
+      "label": "navalny",
+      "slug": "navalny"
+    },
+    {
+      "id": "101084",
+      "label": "Navy",
+      "slug": "navy"
+    },
+    {
+      "id": "388",
+      "label": "netanyahu",
+      "slug": "netanyahu"
+    },
+    {
+      "id": "103070",
+      "label": "Nobel Peace Prize",
+      "slug": "nobel-peace-prize"
+    },
+    {
+      "id": "1289",
+      "label": "Nuclear",
+      "slug": "nuclear"
+    },
+    {
+      "id": "103791",
+      "label": "nuclear deal",
+      "slug": "nuclear-deal"
+    },
+    {
+      "id": "102307",
+      "label": "Nuclear Non-Proliferation Treaty",
+      "slug": "nuclear-non-proliferation-treaty"
+    },
+    {
+      "id": "1324",
+      "label": "nuclear technology",
+      "slug": "nuclear-technology"
+    },
+    {
+      "id": "90",
+      "label": "nuclear weapons",
+      "slug": "nuclear-weapons"
+    },
+    {
+      "id": "409",
+      "label": "palestine",
+      "slug": "palestine"
+    },
+    {
+      "id": "100209",
+      "label": "Palestine Protests",
+      "slug": "palestine-protests"
+    },
+    {
+      "id": "217",
+      "label": "palestinian",
+      "slug": "palestinian"
+    },
+    {
+      "id": "97",
+      "label": "peace agreements",
+      "slug": "peace-agreements"
+    },
+    {
+      "id": "612",
+      "label": "peace negotiations",
+      "slug": "peace-negotiations"
+    },
+    {
+      "id": "721",
+      "label": "peace talks",
+      "slug": "peace-talks"
+    },
+    {
+      "id": "270",
+      "label": "putin",
+      "slug": "putin"
+    },
+    {
+      "id": "100186",
+      "label": "rafah",
+      "slug": "rafah"
+    },
+    {
+      "id": "134",
+      "label": "refugees",
+      "slug": "refugees"
+    },
+    {
+      "id": "104009",
+      "label": "Regional Spillover",
+      "slug": "regional-spillover"
+    },
+    {
+      "id": "102475",
+      "label": "Russia Capture",
+      "slug": "russia-capture"
+    },
+    {
+      "id": "1291",
+      "label": "russia-us relations",
+      "slug": "russia-us-relations"
+    },
+    {
+      "id": "103190",
+      "label": "soldiers",
+      "slug": "soldiers"
+    },
+    {
+      "id": "102988",
+      "label": "Sudan Map",
+      "slug": "sudan-map"
+    },
+    {
+      "id": "638",
+      "label": "suez canal",
+      "slug": "suez-canal"
+    },
+    {
+      "id": "102293",
+      "label": "taliban",
+      "slug": "taliban"
+    },
+    {
+      "id": "101393",
+      "label": "Tartus",
+      "slug": "tartus"
+    },
+    {
+      "id": "471",
+      "label": "terrorism",
+      "slug": "terrorism"
+    },
+    {
+      "id": "101761",
+      "label": "Trade War",
+      "slug": "trade-war"
+    },
+    {
+      "id": "102477",
+      "label": "Trump-Putin",
+      "slug": "trump-putin"
+    },
+    {
+      "id": "895",
+      "label": "u.s. military",
+      "slug": "uptspt-military"
+    },
+    {
+      "id": "96",
+      "label": "Ukraine",
+      "slug": "ukraine"
+    },
+    {
+      "id": "290",
+      "label": "us military",
+      "slug": "us-military"
+    },
+    {
+      "id": "102305",
+      "label": "US-Iran",
+      "slug": "us-iran"
+    },
+    {
+      "id": "204",
+      "label": "vladimir putin",
+      "slug": "vladimir-putin"
+    },
+    {
+      "id": "79",
+      "label": "war",
+      "slug": "war"
+    },
+    {
+      "id": "863",
+      "label": "warfare",
+      "slug": "warfare"
+    },
+    {
+      "id": "101850",
+      "label": "West Bank",
+      "slug": "west-bank"
+    },
+    {
+      "id": "629",
+      "label": "yahya sinwar",
+      "slug": "yahya-sinwar"
+    },
+    {
+      "id": "738",
+      "label": "Yemen",
+      "slug": "yemen"
+    },
+    {
+      "id": "216",
+      "label": "zelenskyy",
+      "slug": "zelenskyy"
+    }
+  ]
+}
