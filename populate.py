@@ -19,6 +19,11 @@ from collections import defaultdict
 import httpx
 from dotenv import load_dotenv
 from google import genai
+from context_module.fetch_context import (
+    fetch_market_context,
+    analyse_all,
+    CONCURRENCY,
+)
 
 load_dotenv()
 gemini = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
@@ -331,6 +336,23 @@ async def main():
     # Step 6 — Geocode questions to countries via Gemini
     print(f"\nStep 6: Geocoding {len(markets)} questions via Gemini...")
     await geocode_markets(markets)
+    print(f"  → done")
+
+    # Step 7 — Fetch news context and run Gemini analysis
+    print(f"\nStep 7: Fetching news context ({len(markets)} markets)...")
+    sem = asyncio.Semaphore(CONCURRENCY)
+    async with httpx.AsyncClient() as client:
+        context_tasks = [fetch_market_context(client, sem, m) for m in markets]
+        context_results = await asyncio.gather(*context_tasks)
+    context_map = {mid: data for mid, data in context_results}
+
+    markets_by_id = {m["market_id"]: m for m in markets}
+    analysis_results = analyse_all(markets_by_id, context_map)
+
+    for m in markets:
+        mid = m["market_id"]
+        m["analysis"] = analysis_results.get(mid)
+
     grouped = group_by_country(markets)
     print(f"  → {len(grouped)} countries")
 
