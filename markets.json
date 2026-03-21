@@ -1,82 +1,1158 @@
 [
   {
-    "market_id": "0xe2b3b822d2d357aecb9ec2124b9152ea61f2cc0f2e07fe7ed6ce00015cd9f431",
-    "question": "Will Dan Hooker fight Max Holloway next?",
-    "token_id": "4964282026365993254153532843598473533251083755677816843588786470453894763933",
-    "volume_24hr": 19523.69,
-    "volume": 19532.69,
-    "velocity": 0.395,
-    "signal_score": 5,
-    "probability": 0.535
+    "country": "Bahrain",
+    "markets": [
+      {
+        "market_id": "0xb5490271ca82b107aa311d728a79fbead8b37a4435bc4626562bd6edbae97076",
+        "question": "Will Iran strike Bahrain again in March?",
+        "volume_24hr": 2772.302082,
+        "volume": 9819.372285999998,
+        "velocity": 0.08,
+        "probability": 0.785
+      }
+    ]
   },
   {
-    "market_id": "0xd73f60114a0e7169a55082daef1228cb27fa50c939eea22cb0589f6bac6ce5d3",
-    "question": "Iran x Israel/US conflict ends by May 15?",
-    "token_id": "19426830997860641827867742428794225516264548638293070052741093336218482490309",
-    "volume_24hr": 41380.196704,
-    "volume": 791666.8393089989,
-    "velocity": 0.08000000000000002,
-    "signal_score": 8,
-    "probability": 0.495
+    "country": "China",
+    "markets": [
+      {
+        "market_id": "0x48fbf70c1713e71a405052bc4641e26dbba435fa557672c4040763c901cbf606",
+        "question": "Will Trump visit China by April 30?",
+        "volume_24hr": 180580.91257899994,
+        "volume": 2440666.404522992,
+        "velocity": -0.1,
+        "probability": 0.125
+      },
+      {
+        "market_id": "0xcd215b8330a35098a1a3f6c46b6492347edb5e74c1e0a95ac4d3d54aece6c262",
+        "question": "Will Trump visit China by May 31?",
+        "volume_24hr": 21901.505387,
+        "volume": 206543.14508199962,
+        "velocity": -0.07,
+        "probability": 0.565
+      }
+    ]
   },
   {
-    "market_id": "0xfa59099fbda1e0f0058ed3cbd57e939fe90ab6d9b57d53bd488bcadf75c191d4",
-    "question": "Trump announces end of military operations against Iran by April 30th?",
-    "token_id": "112434828665041337854033745240098052999773438249964130665844574663228374653496",
-    "volume_24hr": 115437.43284400005,
-    "volume": 681176.321095,
-    "velocity": 0.06999999999999995,
-    "signal_score": 8,
-    "probability": 0.47
+    "country": "Djibouti",
+    "markets": [
+      {
+        "market_id": "0xcd26bdb63b81dfcc5482c42e9372c8a46091b1de1123d2afefb83df83fe859fd",
+        "question": "Bab el-Mandeb Strait effectively closed by April 30?",
+        "volume_24hr": 4500.214577000001,
+        "volume": 27453.15029799998,
+        "velocity": -0.06,
+        "probability": 0.22
+      }
+    ]
   },
   {
-    "market_id": "0xe6d00bae1234238bc9978040316062e56fc2849885379db1f207895fa94838a5",
-    "question": "Will Israel take military action in Gaza on March 20, 2026?",
-    "token_id": "8107189777106023102890203017802245885639388469902538004730903968298567392213",
-    "volume_24hr": 16072.060673000002,
-    "volume": 21766.822850000008,
-    "velocity": -0.295,
-    "signal_score": 8,
-    "probability": 0.08
+    "country": "Eritrea",
+    "markets": [
+      {
+        "market_id": "0xcd26bdb63b81dfcc5482c42e9372c8a46091b1de1123d2afefb83df83fe859fd",
+        "question": "Bab el-Mandeb Strait effectively closed by April 30?",
+        "volume_24hr": 4500.214577000001,
+        "volume": 27453.15029799998,
+        "velocity": -0.06,
+        "probability": 0.22
+      }
+    ]
   },
   {
-    "market_id": "0x1c39f29a392495da86a9d1882bdb7ad82bd617990a6da16674e1ee3da105e9e6",
-    "question": "Will Israel launch a major ground offensive in Gaza by December 31?",
-    "token_id": "54321071530548266672166878707765766594100313888586165986698245613205332870724",
-    "volume_24hr": 3322.942856,
-    "volume": 3655.877956,
-    "velocity": 0.325,
-    "signal_score": 9,
-    "probability": 0.465
+    "country": "Iran",
+    "markets": [
+      {
+        "market_id": "0x667b6e62351dc8f54f40ec918ae4256dcca35b30bae89940e862b5f47789977a",
+        "question": "Will Khamenei tweet again on March 21, 2026?",
+        "volume_24hr": 13284.717659,
+        "volume": 33001.578681,
+        "velocity": 0.13,
+        "probability": 0.9995
+      },
+      {
+        "market_id": "0x6d293b5476217f3a22e2ec52d43ca27914a4aa7736061e92d9c00550ec8ed4f9",
+        "question": "Will Iran strike Oman again in March?",
+        "volume_24hr": 5715.9040829999985,
+        "volume": 9684.066600000004,
+        "velocity": -0.26,
+        "probability": 0.105
+      },
+      {
+        "market_id": "0x5c4e41b63d9026d085966fdaf1babd8548f56f0098271479f70831b60fd7fac5",
+        "question": "Will 45 or more ships transit the Strait of Hormuz between March 17-23?",
+        "volume_24hr": 16006.742468999999,
+        "volume": 57534.275995000025,
+        "velocity": -0.12,
+        "probability": 0.28
+      },
+      {
+        "market_id": "0x4d5ea69b6c75c608a269c97eaca8d2c1ddbe9f01a788aa7082678fe5839efae9",
+        "question": "Will Iran conduct a military action against Israel on March 19, 2026?",
+        "volume_24hr": 95862.04730899999,
+        "volume": 173428.39187299993,
+        "velocity": 0.07,
+        "probability": 0.4085
+      },
+      {
+        "market_id": "0x43fc6575b13925f260c0c7ca6b5e78bb70bf4295c18586ad22d7eda02ee1d45e",
+        "question": "Will Iran successfully target shipping on March 25, 2026?",
+        "volume_24hr": 9830.058319999998,
+        "volume": 9830.058320000002,
+        "velocity": -0.1,
+        "probability": 0.165
+      },
+      {
+        "market_id": "0x4c59991cf67c08182cb2b0e06a2c47645a7c1fd0f86e062678307fdf082bfb21",
+        "question": "Will Iran successfully target shipping on March 27, 2026?",
+        "volume_24hr": 6171.334210000001,
+        "volume": 6191.334210000001,
+        "velocity": -0.12,
+        "probability": 0.145
+      },
+      {
+        "market_id": "0xfa59099fbda1e0f0058ed3cbd57e939fe90ab6d9b57d53bd488bcadf75c191d4",
+        "question": "Trump announces end of military operations against Iran by April 30th?",
+        "volume_24hr": 114306.42124400004,
+        "volume": 683979.8676540002,
+        "velocity": 0.06,
+        "probability": 0.455
+      },
+      {
+        "market_id": "0xd73f60114a0e7169a55082daef1228cb27fa50c939eea22cb0589f6bac6ce5d3",
+        "question": "Iran x Israel/US conflict ends by May 15?",
+        "volume_24hr": 41267.559199,
+        "volume": 792195.4000769989,
+        "velocity": 0.07,
+        "probability": 0.49
+      },
+      {
+        "market_id": "0x5d87eb09704572f515e1dc472bc1f3dac6835cbb06a6c72c1d0b3486cd0ad97c",
+        "question": "Will Israel or the US target Isfahan Nuclear Technology Center nuclear facility?",
+        "volume_24hr": 3332.694863,
+        "volume": 81343.38585400021,
+        "velocity": -0.15,
+        "probability": 0.4765
+      },
+      {
+        "market_id": "0x0466a9dd8ca4390d605a5c9a734946815600c0ab08500c3dd43cfbdf12f7da07",
+        "question": "Will Iran strike Saudi Arabia again in March?",
+        "volume_24hr": 2074.169485,
+        "volume": 15182.651796000004,
+        "velocity": -0.19,
+        "probability": 0.799
+      },
+      {
+        "market_id": "0xe1cc1768f50b1663af6c77729ae6352b846ad9a96c040e12d1e6fb349486f217",
+        "question": "Will Iran conduct a military action against Israel on March 20, 2026?",
+        "volume_24hr": 38744.66449900001,
+        "volume": 76736.38948600001,
+        "velocity": -0.06,
+        "probability": 0.82
+      },
+      {
+        "market_id": "0xb412664463bbfe21be44b1963291205ab332afd4f7f6e0d027aec1ba7a9e6793",
+        "question": "Iran leadership change by April 30?",
+        "volume_24hr": 72862.79201300003,
+        "volume": 1001115.6861190019,
+        "velocity": -0.05,
+        "probability": 0.325
+      },
+      {
+        "market_id": "0x308790424d275010c12fcc152f1f58d811a77b67f212dc54b86e29c9de0cf473",
+        "question": "Will Khamenei tweet again on March 22, 2026?",
+        "volume_24hr": 3823.1015610000004,
+        "volume": 15461.815895,
+        "velocity": 0.1,
+        "probability": 0.945
+      },
+      {
+        "market_id": "0xc84dfa2ab4a808d1b96a2cf439f8b88a1c5c37762253280deb7663a195d9b859",
+        "question": "Trump announces end of military operations against Iran by June 30th?",
+        "volume_24hr": 31038.569023000004,
+        "volume": 300982.48561000015,
+        "velocity": 0.06,
+        "probability": 0.765
+      },
+      {
+        "market_id": "0xa8b054b7f43143629055f292260584ac027d85898af44a0a5baf8fb20f953c4c",
+        "question": "Will fewer than 5 ships be successfully targeted by Iran by March 31?",
+        "volume_24hr": 5305.749371,
+        "volume": 9476.289960999999,
+        "velocity": 0.08,
+        "probability": 0.94
+      },
+      {
+        "market_id": "0x7167b89a9b1362fb6ddba0f145199e55a91b3da384249fa0bf533d5cc076e6fc",
+        "question": "Mojtaba Khamenei seen in public by March 31?",
+        "volume_24hr": 50978.91103800001,
+        "volume": 484416.8365520002,
+        "velocity": -0.05,
+        "probability": 0.065
+      },
+      {
+        "market_id": "0x72f770dc7780775ebf105e096e96b23a12cf3f4d2cac4d534d841ea2d4aa75e9",
+        "question": "Will Iran strike Iraq again in March?",
+        "volume_24hr": 1780.2787300000002,
+        "volume": 4075.193596,
+        "velocity": -0.13,
+        "probability": 0.516
+      },
+      {
+        "market_id": "0x27c0a5bc2c2d314ddb5c759d2303234d35513279f2972de3f6a201133b59db31",
+        "question": "Will Iran successfully target shipping on March 30, 2026?",
+        "volume_24hr": 1639.19,
+        "volume": 1639.19,
+        "velocity": -0.16,
+        "probability": 0.215
+      },
+      {
+        "market_id": "0xde4e35d9c11c61db828bcdb303ce1d431a0aaca2bb8ab5c7719e59d86ca76462",
+        "question": "Will USD reach 1.6M Iranian rials by March 31?",
+        "volume_24hr": 1632.209755,
+        "volume": 1632.2097549999999,
+        "velocity": -0.19,
+        "probability": 0.35
+      },
+      {
+        "market_id": "0x4c0d19b2918d1193f05cffbd1403e88d817a54d040439fbc1f5e180cd45701a7",
+        "question": "Will Israel launch a ground operation in Iran by March 31, 2026?",
+        "volume_24hr": 29156.988098999995,
+        "volume": 40984.46074300002,
+        "velocity": -0.06,
+        "probability": 0.06
+      },
+      {
+        "market_id": "0x5893f7f9efcf3926cff64b8eceae06c28f4ca178faaa9ee6f445933ef4b9570b",
+        "question": "Will Iran successfully target shipping on March 22, 2026?",
+        "volume_24hr": 3426.921796,
+        "volume": 3777.6683479999997,
+        "velocity": -0.09,
+        "probability": 0.085
+      },
+      {
+        "market_id": "0x9347459a34932a7562682d59731a8da97b3cfad20cfb9969324b6463f0de0ec2",
+        "question": "Will Iran take military action against a Gulf State on March 21, 2026?",
+        "volume_24hr": 5322.485155,
+        "volume": 7996.441399999998,
+        "velocity": -0.07,
+        "probability": 0.866
+      },
+      {
+        "market_id": "0xb5490271ca82b107aa311d728a79fbead8b37a4435bc4626562bd6edbae97076",
+        "question": "Will Iran strike Bahrain again in March?",
+        "volume_24hr": 2772.302082,
+        "volume": 9819.372285999998,
+        "velocity": 0.08,
+        "probability": 0.785
+      },
+      {
+        "market_id": "0xd79f14c4afe6cadccdba46dce08d0a60714b2bac7b8665be3bb6ed2c7121e3e5",
+        "question": "Will there be between 0 and 10 average daily transits of the Strait of Hormuz on March 31?",
+        "volume_24hr": 2276.569665,
+        "volume": 83150.93307600002,
+        "velocity": -0.09,
+        "probability": 0.51
+      },
+      {
+        "market_id": "0xee0fa79fe5e18e20efb446df07824aa1295ab34e71c6c6244d49e73d66be3be9",
+        "question": "Will Iran successfully target shipping on March 29, 2026?",
+        "volume_24hr": 1405.0,
+        "volume": 1405.0,
+        "velocity": -0.13,
+        "probability": 0.125
+      },
+      {
+        "market_id": "0xb40e0490382e7bc89d193fcc8657d0acb9191afd764ef435af888868ba2b88eb",
+        "question": "Will the US conduct a cyberattack on Iran by March 31?",
+        "volume_24hr": 4086.6868110000005,
+        "volume": 312602.9424830003,
+        "velocity": -0.07,
+        "probability": 0.045
+      },
+      {
+        "market_id": "0x54e38e5dd8d631184d91b39c2b4b757fce025425d91f985b37b62ece2d6bdadd",
+        "question": "Will 40-44 ships transit the Strait of Hormuz between March 10-16?",
+        "volume_24hr": 10652.645360999999,
+        "volume": 53479.00818100001,
+        "velocity": -0.05,
+        "probability": 0.157
+      },
+      {
+        "market_id": "0x0a1c5126237db906eb0ad0cef3742091cc0589a664dd628d7feee5c8cd6a1ac9",
+        "question": "Will Iran strike Jordan again in March?",
+        "volume_24hr": 1230.001893,
+        "volume": 4874.235081000001,
+        "velocity": -0.12,
+        "probability": 0.41
+      },
+      {
+        "market_id": "0x8beb0692e15cdfd2905e4bf5ec618bb94a66900e59ce81f9de8e378d84dd4742",
+        "question": "Will the Kharg Island oil terminal be hit by March 31?",
+        "volume_24hr": 9763.934659999997,
+        "volume": 558459.5978820005,
+        "velocity": -0.05,
+        "probability": 0.15
+      },
+      {
+        "market_id": "0x6c5fc449d5752e3847529d136a01a800ce6b8deb49ab390484afc1170b823b41",
+        "question": "Will Iran successfully target shipping on March 20, 2026?",
+        "volume_24hr": 2518.432369,
+        "volume": 9355.209396000002,
+        "velocity": -0.07,
+        "probability": 0.0235
+      },
+      {
+        "market_id": "0x4bf4ada1f52f7708703cd18349785865dce4535644fefdf69fe3a20926077c6e",
+        "question": "Will Iran successfully target shipping on March 23, 2026?",
+        "volume_24hr": 1644.7861090000001,
+        "volume": 2282.7813530000003,
+        "velocity": -0.08,
+        "probability": 0.075
+      },
+      {
+        "market_id": "0x85a44e4842d6b17b93ee47aa744c82c2cb5399c05cf53e7198279ad602dfaa59",
+        "question": "Will USD fall to 1.4M Iranian rials by March 31?",
+        "volume_24hr": 1164.5346560000003,
+        "volume": 14404.305091,
+        "velocity": 0.1,
+        "probability": 0.1185
+      },
+      {
+        "market_id": "0xd01e1b540e6472789ddb1e4883b566b7964546521fb0d2908d095fa7bc4d37b4",
+        "question": "Masoud Pezeshkian out by March 31?",
+        "volume_24hr": 4332.203968,
+        "volume": 262404.2910770003,
+        "velocity": -0.05,
+        "probability": 0.1
+      },
+      {
+        "market_id": "0x2ae3a75540d2d581f9122b6f6e266699034f7c3735341daf2cb5625ce5caccaa",
+        "question": "Will there be between 10 and 20 average daily transits of the Strait of Hormuz on March 31?",
+        "volume_24hr": 2093.398647,
+        "volume": 30470.02473499998,
+        "velocity": 0.06,
+        "probability": 0.35
+      },
+      {
+        "market_id": "0x22f1959ce82daef1af8fe36b23dafe5c9e50b75197c163f83aedfde74d365c91",
+        "question": "Will 30-34 ships transit the Strait of Hormuz between March 17-23?",
+        "volume_24hr": 1681.6269749999997,
+        "volume": 6616.265454,
+        "velocity": 0.05,
+        "probability": 0.15
+      }
+    ]
   },
   {
-    "market_id": "0xc84dfa2ab4a808d1b96a2cf439f8b88a1c5c37762253280deb7663a195d9b859",
-    "question": "Trump announces end of military operations against Iran by June 30th?",
-    "token_id": "77200405920919406047222396714341713902953085905930865032809647038536176521469",
-    "volume_24hr": 34371.902355000006,
-    "volume": 300982.48561000015,
-    "velocity": 0.05500000000000005,
-    "signal_score": 11,
-    "probability": 0.765
+    "country": "Iraq",
+    "markets": [
+      {
+        "market_id": "0x72f770dc7780775ebf105e096e96b23a12cf3f4d2cac4d534d841ea2d4aa75e9",
+        "question": "Will Iran strike Iraq again in March?",
+        "volume_24hr": 1780.2787300000002,
+        "volume": 4075.193596,
+        "velocity": -0.13,
+        "probability": 0.516
+      }
+    ]
   },
   {
-    "market_id": "0xdff611d904b9e981ed95cf5962de3057cb15c7b793c695820cfee7a631a806dd",
-    "question": "Israel x Hamas Ceasefire Phase II by June 30?",
-    "token_id": "36732919114076026380039806748718856940648621591203841949809701657106525878844",
-    "volume_24hr": 3399.6406209999996,
-    "volume": 440230.80373099993,
-    "velocity": 0.11499999999999999,
-    "signal_score": 11,
-    "probability": 0.245
+    "country": "Israel",
+    "markets": [
+      {
+        "market_id": "0x77508b9cb5962ff587890f79e3e39a1789384405b6ff530afbccb9d70743352a",
+        "question": "Will Israel take military action in Lebanon on March 20, 2026?",
+        "volume_24hr": 40237.904609000005,
+        "volume": 105249.08373300012,
+        "velocity": -0.29,
+        "probability": 0.6975
+      },
+      {
+        "market_id": "0xe6d00bae1234238bc9978040316062e56fc2849885379db1f207895fa94838a5",
+        "question": "Will Israel take military action in Gaza on March 20, 2026?",
+        "volume_24hr": 16011.062087,
+        "volume": 21786.863386000008,
+        "velocity": -0.32,
+        "probability": 0.08
+      },
+      {
+        "market_id": "0x91ba174c6b02cdfbdbcf8f013652f27a3f4e4d058b180cf6c10c705786893696",
+        "question": "Will Israel conduct military action in Greater Beirut on March 21, 2026?",
+        "volume_24hr": 30556.691516000003,
+        "volume": 34350.638846,
+        "velocity": 0.24,
+        "probability": null
+      },
+      {
+        "market_id": "0x4d5ea69b6c75c608a269c97eaca8d2c1ddbe9f01a788aa7082678fe5839efae9",
+        "question": "Will Iran conduct a military action against Israel on March 19, 2026?",
+        "volume_24hr": 95862.04730899999,
+        "volume": 173428.39187299993,
+        "velocity": 0.07,
+        "probability": 0.4085
+      },
+      {
+        "market_id": "0x9049d96597900ba0f3013604dc7adc3dd6e7e4764c5a0c16318605c40ac1ee96",
+        "question": "Israeli forces cross the Litani River by June 30?",
+        "volume_24hr": 4383.630649,
+        "volume": 8333.254129999998,
+        "velocity": 0.29,
+        "probability": 0.525
+      },
+      {
+        "market_id": "0xd73f60114a0e7169a55082daef1228cb27fa50c939eea22cb0589f6bac6ce5d3",
+        "question": "Iran x Israel/US conflict ends by May 15?",
+        "volume_24hr": 41267.559199,
+        "volume": 792195.4000769989,
+        "velocity": 0.07,
+        "probability": 0.49
+      },
+      {
+        "market_id": "0xa1f29ddc6bfebb7334386d797989209b740c45bd28f7593d2d85ea852c561cba",
+        "question": "US/Israel strike Yemen by March 31?",
+        "volume_24hr": 13426.093595999999,
+        "volume": 159098.1199049996,
+        "velocity": -0.09,
+        "probability": 0.2
+      },
+      {
+        "market_id": "0x250716ecd25235530ba4dbd1fa0acf6ab92ab05cf5347e25fc86c4384ef1cecb",
+        "question": "Israel strike on Yemen by May 31, 2026?",
+        "volume_24hr": 7620.282823,
+        "volume": 8396.530013000001,
+        "velocity": 0.11,
+        "probability": 0.64
+      },
+      {
+        "market_id": "0xe1cc1768f50b1663af6c77729ae6352b846ad9a96c040e12d1e6fb349486f217",
+        "question": "Will Iran conduct a military action against Israel on March 20, 2026?",
+        "volume_24hr": 38744.66449900001,
+        "volume": 76736.38948600001,
+        "velocity": -0.06,
+        "probability": 0.82
+      },
+      {
+        "market_id": "0x277617382593f19634160f1903762e9ee7b2bd29295d6bca17814d9bdfdb950f",
+        "question": "Will Hezbollah conduct military action against Israel on March 21, 2026?",
+        "volume_24hr": 1637.0103239999999,
+        "volume": 1637.010324,
+        "velocity": 0.4,
+        "probability": 0.87
+      },
+      {
+        "market_id": "0x9de11706e7f6d31eddc745b50cb521c1536ae59d123419dd87e11421e3f5d208",
+        "question": "Houthi strike on Israel by March 31, 2026?",
+        "volume_24hr": 11480.254146000005,
+        "volume": 388639.1239149997,
+        "velocity": -0.08,
+        "probability": 0.145
+      },
+      {
+        "market_id": "0x4c0d19b2918d1193f05cffbd1403e88d817a54d040439fbc1f5e180cd45701a7",
+        "question": "Will Israel launch a ground operation in Iran by March 31, 2026?",
+        "volume_24hr": 29156.988098999995,
+        "volume": 40984.46074300002,
+        "velocity": -0.06,
+        "probability": 0.06
+      },
+      {
+        "market_id": "0x1c39f29a392495da86a9d1882bdb7ad82bd617990a6da16674e1ee3da105e9e6",
+        "question": "Will Israel launch a major ground offensive in Gaza by December 31?",
+        "volume_24hr": 3377.942856,
+        "volume": 3710.877956,
+        "velocity": 0.21,
+        "probability": 0.405
+      },
+      {
+        "market_id": "0x74200e51791dda2cdacc3528f8dadbdce67e576d00a8fca940a8d0e0a0f6ccf5",
+        "question": "Will Israel conduct military action in Greater Beirut on March 20, 2026?",
+        "volume_24hr": 2869.2083470000002,
+        "volume": 5436.954742999999,
+        "velocity": -0.27,
+        "probability": 0.0875
+      },
+      {
+        "market_id": "0xdff611d904b9e981ed95cf5962de3057cb15c7b793c695820cfee7a631a806dd",
+        "question": "Israel x Hamas Ceasefire Phase II by June 30?",
+        "volume_24hr": 3399.6406209999996,
+        "volume": 440230.80373099993,
+        "velocity": 0.11,
+        "probability": 0.245
+      },
+      {
+        "market_id": "0x5d87eb09704572f515e1dc472bc1f3dac6835cbb06a6c72c1d0b3486cd0ad97c",
+        "question": "Will Israel or the US target Isfahan Nuclear Technology Center nuclear facility?",
+        "volume_24hr": 3332.694863,
+        "volume": 81343.38585400021,
+        "velocity": -0.15,
+        "probability": 0.4765
+      },
+      {
+        "market_id": "0xf15f4253eace2d74c88936cd63906abda4ff4bbf98e20cf799ba45cf6afc55e9",
+        "question": "Will Israel launch a major ground offensive in Gaza by June 30?",
+        "volume_24hr": 1557.882346,
+        "volume": 1715.777066,
+        "velocity": 0.28,
+        "probability": 0.41
+      },
+      {
+        "market_id": "0xe40a9e37af9d4ac9842d6df7a668562ae247b6f8b9c1e26db71d970c57adfde4",
+        "question": "Will Israel take military action in Lebanon on March 24, 2026?",
+        "volume_24hr": 4249.141066,
+        "volume": 5132.215351000001,
+        "velocity": -0.09,
+        "probability": 0.845
+      },
+      {
+        "market_id": "0x546a20225293544b154248b32d88dc0059097b9d9854772f1a24235b3f22dd59",
+        "question": "Will Israel strike \u22654 countries in March 2026?",
+        "volume_24hr": 9627.581255000001,
+        "volume": 114421.24732000007,
+        "velocity": 0.05,
+        "probability": 0.395
+      },
+      {
+        "market_id": "0x8ef564eecd6a0b79ec642a5dec50acaa276a4060acb7d2dce356efbf1d8d3078",
+        "question": "Will Israel conduct military action in Greater Beirut on March 22, 2026?",
+        "volume_24hr": 1387.871341,
+        "volume": 1467.549807,
+        "velocity": 0.2,
+        "probability": 0.845
+      },
+      {
+        "market_id": "0xd12ca289d1a4eb8209d6d3c61d94d2871f456634a5f49b43b5b373aa8d50a857",
+        "question": "Will Israel take military action in Gaza on March 21, 2026?",
+        "volume_24hr": 7118.464414,
+        "volume": 7294.842191000001,
+        "velocity": -0.05,
+        "probability": 0.43
+      },
+      {
+        "market_id": "0x35aa9df78e99b9edbc77d1448d4548396073064f923591d8cb8cc9cf5c22e7f0",
+        "question": "Israel strike on Yemen by March 31, 2026?",
+        "volume_24hr": 5900.247292000001,
+        "volume": 263833.3478310009,
+        "velocity": -0.05,
+        "probability": 0.155
+      },
+      {
+        "market_id": "0x60d3928cab2d45a42e8aab947325098715569cfa9b098145e422b5abafefe14a",
+        "question": "Will Israel take military action in Lebanon on March 22, 2026?",
+        "volume_24hr": 1595.295183,
+        "volume": 6317.929389000002,
+        "velocity": -0.08,
+        "probability": 0.88
+      },
+      {
+        "market_id": "0xbfe2252feb42b566915b9ad599ded119a0dcefd318734a8a691fe2add291edc6",
+        "question": "Israel strike on Damascus by March 31, 2026?",
+        "volume_24hr": 5472.6993680000005,
+        "volume": 111248.75446100008,
+        "velocity": 0.05,
+        "probability": 0.1145
+      },
+      {
+        "market_id": "0x236ad50af27a16b7aa93f5bb079ab9675d3ea66d45a2913fa5acee6106b04235",
+        "question": "Will Israel take military action in Lebanon on March 31, 2026?",
+        "volume_24hr": 3103.287119,
+        "volume": 10445.785882000004,
+        "velocity": -0.06,
+        "probability": 0.865
+      },
+      {
+        "market_id": "0x350ee2110237e1cbc7b816ad93233d563392b9b64997acb482d0187cc23f82e0",
+        "question": "Will Israel take military action in Lebanon on March 25, 2026?",
+        "volume_24hr": 1082.002875,
+        "volume": 2690.6052659999996,
+        "velocity": -0.06,
+        "probability": 0.88
+      }
+    ]
   },
   {
-    "market_id": "0xf15f4253eace2d74c88936cd63906abda4ff4bbf98e20cf799ba45cf6afc55e9",
-    "question": "Will Israel launch a major ground offensive in Gaza by June 30?",
-    "token_id": "75346936063969571190620358863735703777657300721118724660441519247622515981794",
-    "volume_24hr": 1557.882346,
-    "volume": 1715.777066,
-    "velocity": 0.27999999999999997,
-    "signal_score": 12,
-    "probability": 0.41
+    "country": "Jordan",
+    "markets": [
+      {
+        "market_id": "0x0a1c5126237db906eb0ad0cef3742091cc0589a664dd628d7feee5c8cd6a1ac9",
+        "question": "Will Iran strike Jordan again in March?",
+        "volume_24hr": 1230.001893,
+        "volume": 4874.235081000001,
+        "velocity": -0.12,
+        "probability": 0.41
+      }
+    ]
+  },
+  {
+    "country": "Lebanon",
+    "markets": [
+      {
+        "market_id": "0x77508b9cb5962ff587890f79e3e39a1789384405b6ff530afbccb9d70743352a",
+        "question": "Will Israel take military action in Lebanon on March 20, 2026?",
+        "volume_24hr": 40237.904609000005,
+        "volume": 105249.08373300012,
+        "velocity": -0.29,
+        "probability": 0.6975
+      },
+      {
+        "market_id": "0x9049d96597900ba0f3013604dc7adc3dd6e7e4764c5a0c16318605c40ac1ee96",
+        "question": "Israeli forces cross the Litani River by June 30?",
+        "volume_24hr": 4383.630649,
+        "volume": 8333.254129999998,
+        "velocity": 0.29,
+        "probability": 0.525
+      },
+      {
+        "market_id": "0x91ba174c6b02cdfbdbcf8f013652f27a3f4e4d058b180cf6c10c705786893696",
+        "question": "Will Israel conduct military action in Greater Beirut on March 21, 2026?",
+        "volume_24hr": 30556.691516000003,
+        "volume": 34350.638846,
+        "velocity": 0.24,
+        "probability": null
+      },
+      {
+        "market_id": "0x277617382593f19634160f1903762e9ee7b2bd29295d6bca17814d9bdfdb950f",
+        "question": "Will Hezbollah conduct military action against Israel on March 21, 2026?",
+        "volume_24hr": 1637.0103239999999,
+        "volume": 1637.010324,
+        "velocity": 0.4,
+        "probability": 0.87
+      },
+      {
+        "market_id": "0x74200e51791dda2cdacc3528f8dadbdce67e576d00a8fca940a8d0e0a0f6ccf5",
+        "question": "Will Israel conduct military action in Greater Beirut on March 20, 2026?",
+        "volume_24hr": 2869.2083470000002,
+        "volume": 5436.954742999999,
+        "velocity": -0.27,
+        "probability": 0.0875
+      },
+      {
+        "market_id": "0xe40a9e37af9d4ac9842d6df7a668562ae247b6f8b9c1e26db71d970c57adfde4",
+        "question": "Will Israel take military action in Lebanon on March 24, 2026?",
+        "volume_24hr": 4249.141066,
+        "volume": 5132.215351000001,
+        "velocity": -0.09,
+        "probability": 0.845
+      },
+      {
+        "market_id": "0x236ad50af27a16b7aa93f5bb079ab9675d3ea66d45a2913fa5acee6106b04235",
+        "question": "Will Israel take military action in Lebanon on March 31, 2026?",
+        "volume_24hr": 3103.287119,
+        "volume": 10445.785882000004,
+        "velocity": -0.06,
+        "probability": 0.865
+      },
+      {
+        "market_id": "0x8ef564eecd6a0b79ec642a5dec50acaa276a4060acb7d2dce356efbf1d8d3078",
+        "question": "Will Israel conduct military action in Greater Beirut on March 22, 2026?",
+        "volume_24hr": 1387.871341,
+        "volume": 1467.549807,
+        "velocity": 0.2,
+        "probability": 0.845
+      },
+      {
+        "market_id": "0x60d3928cab2d45a42e8aab947325098715569cfa9b098145e422b5abafefe14a",
+        "question": "Will Israel take military action in Lebanon on March 22, 2026?",
+        "volume_24hr": 1595.295183,
+        "volume": 6317.929389000002,
+        "velocity": -0.08,
+        "probability": 0.88
+      },
+      {
+        "market_id": "0x3f375f4ae7614be4a20da05382c128dff7a3a917dcbd63d1c3e12ff7ca862d56",
+        "question": "Naim Qassem out as Hezbollah\u2019s secretary-general by March 31, 2026?",
+        "volume_24hr": 1363.969568,
+        "volume": 344621.95766200026,
+        "velocity": -0.05,
+        "probability": 0.15
+      },
+      {
+        "market_id": "0x350ee2110237e1cbc7b816ad93233d563392b9b64997acb482d0187cc23f82e0",
+        "question": "Will Israel take military action in Lebanon on March 25, 2026?",
+        "volume_24hr": 1082.002875,
+        "volume": 2690.6052659999996,
+        "velocity": -0.06,
+        "probability": 0.88
+      }
+    ]
+  },
+  {
+    "country": "Oman",
+    "markets": [
+      {
+        "market_id": "0x5c4e41b63d9026d085966fdaf1babd8548f56f0098271479f70831b60fd7fac5",
+        "question": "Will 45 or more ships transit the Strait of Hormuz between March 17-23?",
+        "volume_24hr": 16006.742468999999,
+        "volume": 57534.275995000025,
+        "velocity": -0.12,
+        "probability": 0.28
+      },
+      {
+        "market_id": "0x6d293b5476217f3a22e2ec52d43ca27914a4aa7736061e92d9c00550ec8ed4f9",
+        "question": "Will Iran strike Oman again in March?",
+        "volume_24hr": 5715.9040829999985,
+        "volume": 9684.066600000004,
+        "velocity": -0.26,
+        "probability": 0.105
+      },
+      {
+        "market_id": "0x54e38e5dd8d631184d91b39c2b4b757fce025425d91f985b37b62ece2d6bdadd",
+        "question": "Will 40-44 ships transit the Strait of Hormuz between March 10-16?",
+        "volume_24hr": 10652.645360999999,
+        "volume": 53479.00818100001,
+        "velocity": -0.05,
+        "probability": 0.157
+      },
+      {
+        "market_id": "0xd79f14c4afe6cadccdba46dce08d0a60714b2bac7b8665be3bb6ed2c7121e3e5",
+        "question": "Will there be between 0 and 10 average daily transits of the Strait of Hormuz on March 31?",
+        "volume_24hr": 2276.569665,
+        "volume": 83150.93307600002,
+        "velocity": -0.09,
+        "probability": 0.51
+      },
+      {
+        "market_id": "0x2ae3a75540d2d581f9122b6f6e266699034f7c3735341daf2cb5625ce5caccaa",
+        "question": "Will there be between 10 and 20 average daily transits of the Strait of Hormuz on March 31?",
+        "volume_24hr": 2093.398647,
+        "volume": 30470.02473499998,
+        "velocity": 0.06,
+        "probability": 0.35
+      },
+      {
+        "market_id": "0x22f1959ce82daef1af8fe36b23dafe5c9e50b75197c163f83aedfde74d365c91",
+        "question": "Will 30-34 ships transit the Strait of Hormuz between March 17-23?",
+        "volume_24hr": 1681.6269749999997,
+        "volume": 6616.265454,
+        "velocity": 0.05,
+        "probability": 0.15
+      }
+    ]
+  },
+  {
+    "country": "Palestine",
+    "markets": [
+      {
+        "market_id": "0xe6d00bae1234238bc9978040316062e56fc2849885379db1f207895fa94838a5",
+        "question": "Will Israel take military action in Gaza on March 20, 2026?",
+        "volume_24hr": 16011.062087,
+        "volume": 21786.863386000008,
+        "velocity": -0.32,
+        "probability": 0.08
+      },
+      {
+        "market_id": "0xd12ca289d1a4eb8209d6d3c61d94d2871f456634a5f49b43b5b373aa8d50a857",
+        "question": "Will Israel take military action in Gaza on March 21, 2026?",
+        "volume_24hr": 7118.464414,
+        "volume": 7294.842191000001,
+        "velocity": -0.05,
+        "probability": 0.43
+      },
+      {
+        "market_id": "0x1c39f29a392495da86a9d1882bdb7ad82bd617990a6da16674e1ee3da105e9e6",
+        "question": "Will Israel launch a major ground offensive in Gaza by December 31?",
+        "volume_24hr": 3377.942856,
+        "volume": 3710.877956,
+        "velocity": 0.21,
+        "probability": 0.405
+      }
+    ]
+  },
+  {
+    "country": "Palestine, State of",
+    "markets": [
+      {
+        "market_id": "0xf15f4253eace2d74c88936cd63906abda4ff4bbf98e20cf799ba45cf6afc55e9",
+        "question": "Will Israel launch a major ground offensive in Gaza by June 30?",
+        "volume_24hr": 1557.882346,
+        "volume": 1715.777066,
+        "velocity": 0.28,
+        "probability": 0.41
+      }
+    ]
+  },
+  {
+    "country": "Russia",
+    "markets": [
+      {
+        "market_id": "0x03522ed2c837f74f93785c9e3c8a12cca8a6b5a19dec15f8a91052fc2301cbfd",
+        "question": "Will Russia capture Rodynske by March 31?",
+        "volume_24hr": 51706.662799999984,
+        "volume": 171134.36974199986,
+        "velocity": 0.76,
+        "probability": 0.9665
+      },
+      {
+        "market_id": "0xd970b5b62a594277e11e3b5ae558cc22a328e1891db99ed9837c9d029c36eaff",
+        "question": "Will Russia capture Rodynske by April 30?",
+        "volume_24hr": 33684.55226200001,
+        "volume": 49526.22975499999,
+        "velocity": 0.4,
+        "probability": 0.987
+      },
+      {
+        "market_id": "0xcb0ec1a3c312524cca8015c0843aa1f97d0f6375be4a967e0882303b68e8d8ee",
+        "question": "Will Russia capture all of Rodynske by March 31?",
+        "volume_24hr": 18432.692334000007,
+        "volume": 209193.0041810002,
+        "velocity": 0.72,
+        "probability": 0.96
+      },
+      {
+        "market_id": "0x84ce2b0b8c6fd692d60cb619e24723143a9bb5fa48ad963e795788f9ddd2f66c",
+        "question": "Will Russia capture all of Rodynske by April 30?",
+        "volume_24hr": 15021.347505,
+        "volume": 40087.37753900004,
+        "velocity": 0.35,
+        "probability": 0.982
+      },
+      {
+        "market_id": "0x032e40c71875723c5878c4385458f17aa5a6e90f6bb5c92fd75cf13a5a8ea3d4",
+        "question": "Will Zelenskyy and Putin not meet before 2027?",
+        "volume_24hr": 5506.939492,
+        "volume": 84594.19451099995,
+        "velocity": 0.06,
+        "probability": 0.745
+      }
+    ]
+  },
+  {
+    "country": "Russian Federation",
+    "markets": [
+      {
+        "market_id": "0x90c6511dcc9499c2c58786a2456df333a87c97a9cf548acc26f3e4e56fbc36e7",
+        "question": "Will Trump and Putin not meet?",
+        "volume_24hr": 2329.4016100000003,
+        "volume": 727471.1462610003,
+        "velocity": 0.05,
+        "probability": 0.806
+      }
+    ]
+  },
+  {
+    "country": "Saudi Arabia",
+    "markets": [
+      {
+        "market_id": "0x3843ab689a1f097d3ea7f5d82ca3d39436308da8fe48444b4787d6875561be7d",
+        "question": "Saudi Arabia military action against Yemen by March 31?",
+        "volume_24hr": 10862.816370999999,
+        "volume": 14782.760018000003,
+        "velocity": 0.06,
+        "probability": 0.115
+      },
+      {
+        "market_id": "0x0466a9dd8ca4390d605a5c9a734946815600c0ab08500c3dd43cfbdf12f7da07",
+        "question": "Will Iran strike Saudi Arabia again in March?",
+        "volume_24hr": 2074.169485,
+        "volume": 15182.651796000004,
+        "velocity": -0.19,
+        "probability": 0.799
+      }
+    ]
+  },
+  {
+    "country": "Syria",
+    "markets": [
+      {
+        "market_id": "0xbfe2252feb42b566915b9ad599ded119a0dcefd318734a8a691fe2add291edc6",
+        "question": "Israel strike on Damascus by March 31, 2026?",
+        "volume_24hr": 5472.6993680000005,
+        "volume": 111248.75446100008,
+        "velocity": 0.05,
+        "probability": 0.1145
+      }
+    ]
+  },
+  {
+    "country": "Ukraine",
+    "markets": [
+      {
+        "market_id": "0x03522ed2c837f74f93785c9e3c8a12cca8a6b5a19dec15f8a91052fc2301cbfd",
+        "question": "Will Russia capture Rodynske by March 31?",
+        "volume_24hr": 51706.662799999984,
+        "volume": 171134.36974199986,
+        "velocity": 0.76,
+        "probability": 0.9665
+      },
+      {
+        "market_id": "0xd970b5b62a594277e11e3b5ae558cc22a328e1891db99ed9837c9d029c36eaff",
+        "question": "Will Russia capture Rodynske by April 30?",
+        "volume_24hr": 33684.55226200001,
+        "volume": 49526.22975499999,
+        "velocity": 0.4,
+        "probability": 0.987
+      },
+      {
+        "market_id": "0xcb0ec1a3c312524cca8015c0843aa1f97d0f6375be4a967e0882303b68e8d8ee",
+        "question": "Will Russia capture all of Rodynske by March 31?",
+        "volume_24hr": 18432.692334000007,
+        "volume": 209193.0041810002,
+        "velocity": 0.72,
+        "probability": 0.96
+      },
+      {
+        "market_id": "0x84ce2b0b8c6fd692d60cb619e24723143a9bb5fa48ad963e795788f9ddd2f66c",
+        "question": "Will Russia capture all of Rodynske by April 30?",
+        "volume_24hr": 15021.347505,
+        "volume": 40087.37753900004,
+        "velocity": 0.35,
+        "probability": 0.982
+      },
+      {
+        "market_id": "0xbac2d74fbb7ab5f72b557605538376485d1a093bd9a526584b33153a83a74d97",
+        "question": "Will Ukraine agree to give up the rest of Donbas before 2027?",
+        "volume_24hr": 5550.397972000001,
+        "volume": 45173.842972,
+        "velocity": 0.07,
+        "probability": 0.185
+      },
+      {
+        "market_id": "0x032e40c71875723c5878c4385458f17aa5a6e90f6bb5c92fd75cf13a5a8ea3d4",
+        "question": "Will Zelenskyy and Putin not meet before 2027?",
+        "volume_24hr": 5506.939492,
+        "volume": 84594.19451099995,
+        "velocity": 0.06,
+        "probability": 0.745
+      }
+    ]
+  },
+  {
+    "country": "United States",
+    "markets": [
+      {
+        "market_id": "0x48fbf70c1713e71a405052bc4641e26dbba435fa557672c4040763c901cbf606",
+        "question": "Will Trump visit China by April 30?",
+        "volume_24hr": 180580.91257899994,
+        "volume": 2440666.404522992,
+        "velocity": -0.1,
+        "probability": 0.125
+      },
+      {
+        "market_id": "0xf6cc29801e7dd1da65dde2e6b29bb4b6ec3f32e86dd321825ff2c6c91fa55253",
+        "question": "U.S. forces seize another oil tanker by March 31?",
+        "volume_24hr": 6034.865064000001,
+        "volume": 23618.023832000017,
+        "velocity": -0.12,
+        "probability": 0.105
+      },
+      {
+        "market_id": "0xd73f60114a0e7169a55082daef1228cb27fa50c939eea22cb0589f6bac6ce5d3",
+        "question": "Iran x Israel/US conflict ends by May 15?",
+        "volume_24hr": 41267.559199,
+        "volume": 792195.4000769989,
+        "velocity": 0.07,
+        "probability": 0.49
+      },
+      {
+        "market_id": "0xa1f29ddc6bfebb7334386d797989209b740c45bd28f7593d2d85ea852c561cba",
+        "question": "US/Israel strike Yemen by March 31?",
+        "volume_24hr": 13426.093595999999,
+        "volume": 159098.1199049996,
+        "velocity": -0.09,
+        "probability": 0.2
+      },
+      {
+        "market_id": "0x5d87eb09704572f515e1dc472bc1f3dac6835cbb06a6c72c1d0b3486cd0ad97c",
+        "question": "Will Israel or the US target Isfahan Nuclear Technology Center nuclear facility?",
+        "volume_24hr": 3332.694863,
+        "volume": 81343.38585400021,
+        "velocity": -0.15,
+        "probability": 0.4765
+      },
+      {
+        "market_id": "0xfa59099fbda1e0f0058ed3cbd57e939fe90ab6d9b57d53bd488bcadf75c191d4",
+        "question": "Trump announces end of military operations against Iran by April 30th?",
+        "volume_24hr": 114306.42124400004,
+        "volume": 683979.8676540002,
+        "velocity": 0.06,
+        "probability": 0.455
+      },
+      {
+        "market_id": "0xcd215b8330a35098a1a3f6c46b6492347edb5e74c1e0a95ac4d3d54aece6c262",
+        "question": "Will Trump visit China by May 31?",
+        "volume_24hr": 21901.505387,
+        "volume": 206543.14508199962,
+        "velocity": -0.07,
+        "probability": 0.565
+      },
+      {
+        "market_id": "0xde4e35d9c11c61db828bcdb303ce1d431a0aaca2bb8ab5c7719e59d86ca76462",
+        "question": "Will USD reach 1.6M Iranian rials by March 31?",
+        "volume_24hr": 1632.209755,
+        "volume": 1632.2097549999999,
+        "velocity": -0.19,
+        "probability": 0.35
+      },
+      {
+        "market_id": "0x3f817e85bcd3e56fe48505f00e46c02f0b05dd4ae9f35f89fffc994228d21327",
+        "question": "Will US crude oil reserves fall to 375M by May 1?",
+        "volume_24hr": 4040.781463,
+        "volume": 34390.66009100001,
+        "velocity": -0.09,
+        "probability": 0.615
+      },
+      {
+        "market_id": "0xc84dfa2ab4a808d1b96a2cf439f8b88a1c5c37762253280deb7663a195d9b859",
+        "question": "Trump announces end of military operations against Iran by June 30th?",
+        "volume_24hr": 31038.569023000004,
+        "volume": 300982.48561000015,
+        "velocity": 0.06,
+        "probability": 0.765
+      },
+      {
+        "market_id": "0xb40e0490382e7bc89d193fcc8657d0acb9191afd764ef435af888868ba2b88eb",
+        "question": "Will the US conduct a cyberattack on Iran by March 31?",
+        "volume_24hr": 4086.6868110000005,
+        "volume": 312602.9424830003,
+        "velocity": -0.07,
+        "probability": 0.045
+      },
+      {
+        "market_id": "0x85a44e4842d6b17b93ee47aa744c82c2cb5399c05cf53e7198279ad602dfaa59",
+        "question": "Will USD fall to 1.4M Iranian rials by March 31?",
+        "volume_24hr": 1164.5346560000003,
+        "volume": 14404.305091,
+        "velocity": 0.1,
+        "probability": 0.1185
+      },
+      {
+        "market_id": "0x9ec068d68055cc7e14d82b67da6f8069423ce64d4cd3549aeb50116156a622f0",
+        "question": "Will a U.S. anti-cartel operation outside of the United States occur by April 30, 2026?",
+        "volume_24hr": 2445.544383,
+        "volume": 12706.104747999994,
+        "velocity": 0.07,
+        "probability": 0.505
+      },
+      {
+        "market_id": "0xe1362aa4c9f2caaf523b6392e79e29b3bf3de6ebfa63db41bc459f8d6c756abd",
+        "question": "Will US crude oil reserves fall to 350M by May 1?",
+        "volume_24hr": 2363.888352,
+        "volume": 32755.144693000013,
+        "velocity": -0.06,
+        "probability": 0.175
+      },
+      {
+        "market_id": "0x90c6511dcc9499c2c58786a2456df333a87c97a9cf548acc26f3e4e56fbc36e7",
+        "question": "Will Trump and Putin not meet?",
+        "volume_24hr": 2329.4016100000003,
+        "volume": 727471.1462610003,
+        "velocity": 0.05,
+        "probability": 0.806
+      }
+    ]
+  },
+  {
+    "country": "Unknown",
+    "markets": [
+      {
+        "market_id": "0xe2b3b822d2d357aecb9ec2124b9152ea61f2cc0f2e07fe7ed6ce00015cd9f431",
+        "question": "Will Dan Hooker fight Max Holloway next?",
+        "volume_24hr": 19523.69,
+        "volume": 19532.69,
+        "velocity": 0.4,
+        "probability": 0.535
+      },
+      {
+        "market_id": "0xc5300759dc2089042380795fe7384010a6b6ebdf9e6da7ed3f786d9a5f61c563",
+        "question": "Will Crude Oil (CL) hit (HIGH) $100 by end of March?",
+        "volume_24hr": 253191.28833000007,
+        "volume": 9205904.29301395,
+        "velocity": -0.07,
+        "probability": 0.6455
+      },
+      {
+        "market_id": "0x6c310d728433d9a05226274b29ca4540cb908e4e94bf9795f25c69f9d5a72d70",
+        "question": "Will Crude Oil (CL) hit (LOW) $90 by end of March?",
+        "volume_24hr": 36697.46218099999,
+        "volume": 58052.756606000024,
+        "velocity": -0.12,
+        "probability": 0.2695
+      },
+      {
+        "market_id": "0xf6890c707d1e327b006b9511bdba8c98ec4e4978646c6ffcf3ec8750c26a666a",
+        "question": "Will Crude Oil (CL) hit (HIGH) $105 by end of March?",
+        "volume_24hr": 104996.901142,
+        "volume": 2674232.158749988,
+        "velocity": -0.05,
+        "probability": 0.443
+      },
+      {
+        "market_id": "0xfac8e82eb828a0ebb9cf4b496321122a164bbe172c37c1d9817741bd1d4cb657",
+        "question": "Will 35-39 ships transit the Strait of Hormuz between March 10-16?",
+        "volume_24hr": 9344.74742,
+        "volume": 60954.61923900011,
+        "velocity": 0.09,
+        "probability": 0.7695
+      },
+      {
+        "market_id": "0x58a844e1ddca5ce32107c036190e24437ec70c8c775da9cb986c106f5165bc25",
+        "question": "Will Crude Oil (CL) settle over $56 on the final trading day of March 2026?",
+        "volume_24hr": 1851.8497860000002,
+        "volume": 2433.2284870000008,
+        "velocity": -0.18,
+        "probability": 0.748
+      },
+      {
+        "market_id": "0xc86c5273f31102ed867a2a3171acb80e45111a8c409dd61c03a3681dcc8eeb4e",
+        "question": "Joe Kent charged by April 30?",
+        "volume_24hr": 3292.0506920000003,
+        "volume": 3589.8220550000005,
+        "velocity": 0.05,
+        "probability": 0.155
+      }
+    ]
+  },
+  {
+    "country": "Yemen",
+    "markets": [
+      {
+        "market_id": "0xa1f29ddc6bfebb7334386d797989209b740c45bd28f7593d2d85ea852c561cba",
+        "question": "US/Israel strike Yemen by March 31?",
+        "volume_24hr": 13426.093595999999,
+        "volume": 159098.1199049996,
+        "velocity": -0.09,
+        "probability": 0.2
+      },
+      {
+        "market_id": "0x9de11706e7f6d31eddc745b50cb521c1536ae59d123419dd87e11421e3f5d208",
+        "question": "Houthi strike on Israel by March 31, 2026?",
+        "volume_24hr": 11480.254146000005,
+        "volume": 388639.1239149997,
+        "velocity": -0.08,
+        "probability": 0.145
+      },
+      {
+        "market_id": "0x250716ecd25235530ba4dbd1fa0acf6ab92ab05cf5347e25fc86c4384ef1cecb",
+        "question": "Israel strike on Yemen by May 31, 2026?",
+        "volume_24hr": 7620.282823,
+        "volume": 8396.530013000001,
+        "velocity": 0.11,
+        "probability": 0.64
+      },
+      {
+        "market_id": "0x3843ab689a1f097d3ea7f5d82ca3d39436308da8fe48444b4787d6875561be7d",
+        "question": "Saudi Arabia military action against Yemen by March 31?",
+        "volume_24hr": 10862.816370999999,
+        "volume": 14782.760018000003,
+        "velocity": 0.06,
+        "probability": 0.115
+      },
+      {
+        "market_id": "0x35aa9df78e99b9edbc77d1448d4548396073064f923591d8cb8cc9cf5c22e7f0",
+        "question": "Israel strike on Yemen by March 31, 2026?",
+        "volume_24hr": 5900.247292000001,
+        "volume": 263833.3478310009,
+        "velocity": -0.05,
+        "probability": 0.155
+      },
+      {
+        "market_id": "0xcd26bdb63b81dfcc5482c42e9372c8a46091b1de1123d2afefb83df83fe859fd",
+        "question": "Bab el-Mandeb Strait effectively closed by April 30?",
+        "volume_24hr": 4500.214577000001,
+        "volume": 27453.15029799998,
+        "velocity": -0.06,
+        "probability": 0.22
+      }
+    ]
   }
 ]

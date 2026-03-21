@@ -1,15 +1,14 @@
+import json
 import os
+
 import httpx
-from fastapi import FastAPI, HTTPException
-import google.generativeai as genai
-from pydantic import BaseModel
 from dotenv import load_dotenv
+from fastapi import FastAPI, HTTPException
+from google import genai
+from pydantic import BaseModel
 
-# Load environment variables
 load_dotenv()
-
-# Configure Gemini API
-genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
+gemini = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
 
 app = FastAPI(
     title="Polymarket & Gemini API Broker",
@@ -44,18 +43,33 @@ async def get_polymarket_events(limit: int = 10):
             )
 
 
-@app.post("/gemini/chat")
-async def chat_with_gemini(request: QueryRequest):
-    """
-    Send a prompt to the Gemini LLM.
-    """
+# @app.post("/gemini/chat")
+# async def chat_with_gemini(request: QueryRequest):
+#     """
+#     Send a prompt to the Gemini LLM.
+#     """
+#     try:
+#         response = gemini.models.generate_content(
+#             model="gemini-2.0-flash", contents=request.query
+#         )
+#         return {"response": response.text}
+#     except Exception as e:
+#         raise HTTPException(status_code=500, detail=f"Gemini API Error: {str(e)}")
+
+
+MARKETS_FILE = "markets.json"
+
+
+@app.get("/markets")
+def get_markets():
+    """Return the enriched markets data grouped by country."""
     try:
-        # Use a generalized model assuming environment holds an active key
-        model = genai.GenerativeModel("gemini-3-pro-preview")
-        response = model.generate_content(request.query)
-        return {"response": response.text}
-    except Exception as e:
-        raise HTTPException(status_code=500, detail=f"Gemini API Error: {str(e)}")
+        with open(MARKETS_FILE) as f:
+            return json.load(f)
+    except FileNotFoundError:
+        raise HTTPException(status_code=404, detail="markets.json not found. Run populate.py first.")
+    except json.JSONDecodeError:
+        raise HTTPException(status_code=500, detail="markets.json contains invalid JSON.")
 
 
 if __name__ == "__main__":
