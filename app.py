@@ -4,6 +4,7 @@ import os
 import httpx
 from dotenv import load_dotenv
 from fastapi import FastAPI, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
 from google import genai
 from pydantic import BaseModel
 
@@ -13,6 +14,14 @@ gemini = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
 app = FastAPI(
     title="Polymarket & Gemini API Broker",
     description="A boilerplate FastAPI application connecting Polymarket with Gemini LLM.",
+)
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
 
 
