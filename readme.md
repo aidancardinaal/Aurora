@@ -18,7 +18,7 @@
 
 ## 1. Project Overview
 
-Aurora is a geopolitical prediction market intelligence engine. It monitors active war and conflict markets on [Polymarket](https://polymarket.com), enriches them with live trading signals, fetches relevant news from GDELT and Reddit, and uses Google Gemini to generate a natural-language analysis of what is driving each market.
+Aurora is a geopolitical prediction market intelligence platform. It monitors active war and conflict markets on [Polymarket](https://polymarket.com), enriches them with live trading signals, fetches relevant news from GDELT and Reddit, and uses Google Gemini to generate a natural-language analysis of what is driving each market.
 
 The output is a structured JSON file (`markets.json`) grouped by country, where each market includes:
 - Live probability and trading volume
@@ -26,7 +26,7 @@ The output is a structured JSON file (`markets.json`) grouped by country, where 
 - Recent news headlines and Reddit posts
 - An LLM-generated analysis with sentiment and confidence score
 
-This data is served via a FastAPI REST API that a frontend or downstream system can consume.
+This data is served via a FastAPI backend and visualised on an interactive Next.js dashboard featuring a 3D globe, market sidebar with Gemini analysis, and regional risk indices.
 
 ---
 
@@ -35,7 +35,7 @@ This data is served via a FastAPI REST API that a frontend or downstream system 
 ```
 ┌─────────────────────────────────────────────────────────┐
 │                      populate.py                        │
-│                  (offline data pipeline)                │
+│            (runs automatically on server startup)       │
 │                                                         │
 │  Step 1: Fetch events by tag (Polymarket Gamma API)     │
 │  Step 2: Flatten markets from events                    │
@@ -51,15 +51,27 @@ This data is served via a FastAPI REST API that a frontend or downstream system 
                      ▼
 ┌─────────────────────────────────────────────────────────┐
 │                       app.py                            │
-│                   (FastAPI server)                      │
+│               (FastAPI server, port 9878)               │
 │                                                         │
 │  GET /            → health check                        │
 │  GET /markets     → serve markets.json                  │
 │  GET /polymarket/events → live proxy to Gamma API       │
 └─────────────────────────────────────────────────────────┘
+                     │
+                     ▼
+┌─────────────────────────────────────────────────────────┐
+│              Next.js Frontend (port 3000)               │
+│                                                         │
+│  Fetches from backend on load. Falls back to local      │
+│  markets.json via /api/markets if backend is offline.   │
+│                                                         │
+│  - 3D globe with market pins (globe.gl)                 │
+│  - Sidebar: market list + Gemini analysis per market    │
+│  - Regional risk indices, filters, time horizons        │
+└─────────────────────────────────────────────────────────┘
 ```
 
-The pipeline is **offline** — `populate.py` is run manually (or on a schedule) to refresh the data. The API server simply reads from `markets.json` at request time.
+`populate.py` runs automatically when the backend starts via a FastAPI lifespan event, ensuring `markets.json` is always fresh on startup. If populate fails, the server falls back to any existing `markets.json` on disk.
 
 ---
 
@@ -118,14 +130,14 @@ GDELT and Reddit fetches run in parallel per market. All markets are processed w
 ## 4. File Reference
 
 ```
-Aurora/
-├── app.py                          # FastAPI server (entry point for API)
-├── populate.py                     # Data pipeline (run offline to refresh data)
+aurora/
+├── app.py                          # FastAPI server — auto-runs populate on startup
+├── populate.py                     # 7-step data pipeline (Polymarket → markets.json)
 ├── markets.json                    # Output: enriched markets grouped by country
 ├── war_conflict_tags.json          # Input: Polymarket tag IDs for war/conflict topics
 ├── context_module/
 │   ├── __init__.py
-│   ├── fetch_context.py            # News fetching + Gemini analysis module
+│   ├── fetch_context.py            # GDELT + Reddit fetch + Gemini analysis module
 │   └── context.json                # Cache: context+analysis keyed by market_id
 ├── requirements.txt                # Python dependencies
 ├── Dockerfile                      # Container definition (port 9878)
@@ -133,7 +145,22 @@ Aurora/
 ├── .env                            # Local secrets (not committed)
 ├── .env.example                    # Template for .env
 ├── CLAUDE.md                       # Project instructions for Claude Code
-└── DOCS.md                         # This file
+├── readme.md                       # This file
+└── aurora---geopolitical-intelligence-main/   # Next.js frontend
+    ├── app/
+    │   ├── page.tsx                # Root page
+    │   ├── layout.tsx
+    │   └── api/markets/route.ts    # Fallback: reads markets.json from disk
+    ├── components/
+    │   ├── GlobeViz.tsx           # Interactive 3D globe
+    │   ├── Sidebar.tsx            # Market list + Strategic Advisor (Gemini analysis)
+    │   ├── Header.tsx             # Filters, time horizon, regional risk indices
+    │   ├── AIAssistant.tsx        # Collapsible LLM chat
+    │   ├── NewsFeed.tsx           # Intel feed
+    │   └── AlertsView.tsx         # Alerts & signals
+    └── lib/
+        ├── data.ts                # Types, geo map, API transform, fetchMarketsFromApi()
+        └── store.tsx              # React context, live data loading on mount
 ```
 
 ---
@@ -249,31 +276,39 @@ pip install -r requirements.txt
 cp .env.example .env   # add your GEMINI_API_KEY
 ```
 
-### Refresh market data
+### Start the backend
+
+```bash
+uvicorn app:app --reload --port 9878
+```
+
+On startup the server automatically runs the full 7-step populate pipeline (~5–10 minutes) and writes `markets.json`, then begins serving requests. If populate fails for any reason, the server still starts and serves any existing `markets.json` on disk.
+
+### Start the frontend
+
+```bash
+cd aurora---geopolitical-intelligence-main
+npm install
+npm run dev
+```
+
+Frontend runs on `http://localhost:3000`. It loads live data from the backend. If the backend is not running, it falls back to reading `markets.json` directly from disk via a local Next.js API route (`/api/markets`).
+
+### Manually refresh market data (optional)
 
 ```bash
 python populate.py
 ```
 
-This runs the full 7-step pipeline and writes `markets.json`. Takes ~5–10 minutes depending on how many markets pass the filters.
+Useful if you want to refresh data without restarting the server.
 
-### Start the API server
-
-```bash
-uvicorn app:app --reload
-# or
-python app.py
-```
-
-Server runs on `http://localhost:8000`.
-
-### Run context module standalone
+### Run context module standalone (optional)
 
 ```bash
 python context_module/fetch_context.py
 ```
 
-Useful for refreshing news context and analysis without re-running the full pipeline.
+Refreshes news context and Gemini analysis for all markets in `markets.json` without re-running the full pipeline.
 
 ---
 

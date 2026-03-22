@@ -1,5 +1,6 @@
 import json
 import os
+from contextlib import asynccontextmanager
 
 import httpx
 from dotenv import load_dotenv
@@ -11,9 +12,25 @@ from pydantic import BaseModel
 load_dotenv()
 gemini = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
 
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    print("Startup: running populate pipeline...")
+    try:
+        from populate import main as populate_main
+        await populate_main()
+        print("Startup: markets.json populated successfully.")
+    except SystemExit:
+        pass
+    except Exception as e:
+        print(f"Startup warning: populate failed ({e}). Serving existing markets.json if available.")
+    yield
+
+
 app = FastAPI(
     title="Polymarket & Gemini API Broker",
     description="A boilerplate FastAPI application connecting Polymarket with Gemini LLM.",
+    lifespan=lifespan,
 )
 
 app.add_middleware(
