@@ -1,3 +1,5 @@
+![Image of Aurora UI](aurora.png)
+
 # Aurora — Technical Documentation
 
 ## Table of Contents
